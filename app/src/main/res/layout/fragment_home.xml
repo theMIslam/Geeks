@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/ic_app_bar"
+        android:layout_width="411dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/ic_app_bar"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Мои задачи"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/ic_app_bar" />
+
+    <RadioButton
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня чтобы\nсделать дела по задачам"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_one" />
+
+    <RadioButton
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_two" />
+
+    <RadioButton
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня чтобы\nсделать дела по задачам"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_three" />
+
+    <RadioButton
+        android:id="@+id/btn_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_four" />
+
+    <RadioButton
+        android:id="@+id/btn_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня чтобы\nсделать дела по задачам"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_five" />
+
+    <RadioButton
+        android:id="@+id/btn_seven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_six" />
+
+    <RadioButton
+        android:id="@+id/btn_eight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Заметки на сегодня чтобы\nсделать дела по задачам"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintTop_toBottomOf="@id/btn_seven" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_plus"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/main_blue"
+        android:src="@drawable/ic_add"
+        android:text="+"
+        android:textSize="30sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
